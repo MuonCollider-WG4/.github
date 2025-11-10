@@ -2,6 +2,12 @@
 
 Organisation to handle version controlled lattice description files and other data for the Muon Collider Front End
 
+The Muon Collider web page is [here](https://muoncollider.web.cern.ch/).
+
+A comprehensive description of the proposed facility is [here](https://arxiv.org/abs/2504.21417).
+
+![muon collider logo](https://muoncollider.web.cern.ch/sites/default/files/inline-images/IMCC-Logo-final-L_3_1.png)
+
 ## Version Control
 
 Version control should be handled using Branches. A new version should be deployed for every significant report, paper, etc. Versions come in two flavours:
