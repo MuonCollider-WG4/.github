@@ -10,8 +10,8 @@ Version control should be handled using Branches. A new version should be deploy
 
 Versions should be stored in branches like
 
-> <date>-prerelease
-> <date>-release
+> [date]-prerelease
+> [date]-release
 
 I expect that there will not be more than one (pre)release per day. 
 
