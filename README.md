@@ -5,8 +5,8 @@ Organisation to handle version controlled lattice description files and other da
 ## Version Control
 
 Version control should be handled using Branches. A new version should be deployed for every significant report, paper, etc. Versions come in two flavours:
-* Prerelease: this is a snapshot intended to aid sharing lattices. Not everything is necessarily cleaned, but it provides a way of clearly tagging a particular blob
-* Release: this is a new version of the lattice intended to represent a fully updated lattice. All files should be updated as needed.
+* __prerelease__: this is a snapshot intended to aid sharing lattices. Not everything is necessarily cleaned, but it provides a way of clearly tagging a particular blob
+* __release__: this is a new version of the lattice intended to represent a fully updated lattice. All files should be updated as needed.
 
 Versions should be stored in branches like
 
