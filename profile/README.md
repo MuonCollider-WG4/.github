@@ -7,7 +7,7 @@ Organisation to handle version controlled lattice description files and other da
 [A comprehensive description of the proposed facility](https://arxiv.org/abs/2504.21417).
 
 <div align="center">
-  <img src="[image.jpg](https://muoncollider.web.cern.ch/sites/default/files/inline-images/IMCC-Logo-final-L_3_1.png)" alt="muon collider logo" width="200">
+  <img src="https://muoncollider.web.cern.ch/sites/default/files/inline-images/IMCC-Logo-final-L_3_1.png" alt="muon collider logo" width="200">
 </div>
 
 ## Version Control
