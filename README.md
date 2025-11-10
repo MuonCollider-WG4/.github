@@ -18,5 +18,5 @@ I expect that there will not be more than one (pre)release per day.
 
 To make a new Branch, go to your repo in github.com. Near the top of the page, under the repo heading, there will be a piece of text saying _3 branches_. This is a link - click on it to get into the branch view. There will be a big green button at the top right that says _New Branch_. Click this and enter the name of your new branch.
 
-
+!https://github.com/MuonCollider-WG4/.github/blob/main/images/Branches_MuonCollider-WG4_cooling_demonstrator.png
 
