@@ -2,11 +2,13 @@
 
 Organisation to handle version controlled lattice description files and other data for the Muon Collider Front End
 
-The Muon Collider web page is [here](https://muoncollider.web.cern.ch/).
+[The Muon Collider web page](https://muoncollider.web.cern.ch/).
 
-A comprehensive description of the proposed facility is [here](https://arxiv.org/abs/2504.21417).
+[A comprehensive description of the proposed facility](https://arxiv.org/abs/2504.21417).
 
-![muon collider logo](https://muoncollider.web.cern.ch/sites/default/files/inline-images/IMCC-Logo-final-L_3_1.png)
+<div align="center">
+  <img src="[image.jpg](https://muoncollider.web.cern.ch/sites/default/files/inline-images/IMCC-Logo-final-L_3_1.png)" alt="muon collider logo" width="200">
+</div>
 
 ## Version Control
 
