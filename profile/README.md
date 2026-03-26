@@ -30,3 +30,48 @@ Here is an example of the demonstrator github area to see how it might look:
 
 ![github screenshot](https://github.com/MuonCollider-WG4/.github/blob/main/images/Branches_MuonCollider-WG4_cooling_demonstrator.png)
 
+## Git does the version control
+
+Let git do the version control:- when you upload new lattice files to git, the old version is stored. You can list all the old versions by doing
+
+> git log
+```
+commit 16ca897e9d873ddd1b3db4066c4dd5f70270dabc (HEAD -> master, origin/master, origin/HEAD)
+Author: Chris Rogers <chris.rogers@stfc.ac.uk>
+Date:   Thu Mar 26 14:32:48 2026 +0000
+
+    Update to allow gap cells
+
+commit 8c674067b97fe18f56fdd1913d37543cf778ce48
+Author: Chris Rogers <chris.rogers@stfc.ac.uk>
+Date:   Wed Feb 18 14:40:16 2026 +0000
+
+    Update to documentation
+
+commit 46ef04906ab153e845d0f5691581cc726c11f637
+Merge: 4c51ec8 80b4d95
+Author: Chris Rogers <chris.rogers@stfc.ac.uk>
+Date:   Wed Feb 18 14:35:32 2026 +0000
+
+    Merge branch 'master' of github.com:MuonCollider-WG4/cooling_demonstrator
+
+commit 4c51ec808f53088e03791c69e58fdf93908a2aaf
+Author: Chris Rogers <chris.rogers@stfc.ac.uk>
+Date:   Wed Feb 18 14:35:07 2026 +0000
+
+    Add link to 1M particle sample and log file
+```
+
+To get back to a particular commit, do:
+
+> git checkout 4c51ec808f53088e03791c69e58fdf93908a2aaf
+
+You will see a message about DETACHED_HEAD state to let you know that you are now pointing to a particular commit, and not the latest version. To go back to the latest version, do either
+
+> git checkout master
+
+in older repos (you will see `origin/master` near the top of the log output) or
+
+> git checkout main
+
+in newer repos (you will see `origin/main` near the top of the log output)
